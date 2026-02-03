@@ -1,0 +1,28 @@
+name: IDPlugin
+version: 1.0.0
+main: com.foxsrv.id.ID
+api-version: 1.20
+author: FoxOficial2
+description: Advanced player identification system
+
+softdepend: [PlaceholderAPI]
+
+permissions:
+  id.admin:
+    description: Allows access to all admin commands
+    default: op
+  id.view:
+    description: Allows viewing player IDs
+    default: true
+  id.desc:
+    description: Allows setting own description
+    default: true
+  id.reload:
+    description: Allows reloading the plugin
+    default: op
+
+commands:
+  id:
+    description: Main command for ID system
+    usage: /<command> [args]
+    aliases: [identify, identity]

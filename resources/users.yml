@@ -1,0 +1,15 @@
+users:
+  Steve:
+    name: "Steve"
+    port: "CIV"
+    license: "C"
+    born: "01/01/2000"
+    id: "002"
+    desc: "A regular player enjoying the server"
+  Alex:
+    name: "Alex"
+    port: ""
+    license: ""
+    born: ""
+    id: ""
+    desc: ""

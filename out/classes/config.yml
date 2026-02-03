@@ -1,0 +1,40 @@
+# Enables or disables PAPI Support! True|False (only works if you have Placeholder API installed on server)
+Placeholders: true
+
+# List of extra placeholders that will appear in the ID card for the user.
+PAPI_LIST:
+  1:
+    text: "Name:"
+    placeholder: "%player_name%"
+  2:
+    text: "Health:"
+    placeholder: "%player_health%"
+
+# ID Card Format
+id-format:
+  header: "&6&l=========== User Identity ==========="
+  footer: "&6&l========================================"
+  desc-header: "&6&l============ Description ==========="
+  line-format: "&e%text% &f%value%"
+  
+# Messages
+messages:
+  no-permission: "&cYou don't have permission to do that!"
+  player-not-found: "&cPlayer not found!"
+  invalid-date: "&cInvalid date format! Use DD/MM/YYYY"
+  desc-too-long: "&cDescription too long! Max 256 characters."
+  desc-set: "&aDescription set successfully!"
+  name-set: "&aName set to %name% for %player%"
+  port-set: "&aPort set to %port% for %player%"
+  license-set: "&aLicense set to %license% for %player%"
+  born-set: "&aBirth date set to %date% for %player%"
+  id-set: "&aID set to %id% for %player%"
+  reloaded: "&aConfiguration reloaded!"
+  click-info: "&7&o(Shift + Right Click to view player ID)"
+  not-player: "&cOnly players can use this command!"
+  usage-desc: "&cUsage: /id desc <text>"
+  usage-name: "&cUsage: /id name <player> <name>"
+  usage-port: "&cUsage: /id port <player> <port>"
+  usage-license: "&cUsage: /id license <player> <license>"
+  usage-born: "&cUsage: /id born <player> <dd/mm/yyyy>"
+  usage-id: "&cUsage: /id id <player> <number>"
